@@ -5,6 +5,16 @@ body{
     font-family: 'Caesar Dressing', cursive;
     margin: 0;
 }
+h1{
+    margin: 0;
+}
+header{
+    background-image: url("../images/gloria_maria.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+}
 nav{
     align-items: center;
     background-color: aquamarine;
