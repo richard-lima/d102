@@ -22,3 +22,14 @@ nav{
     height: 50px;
     justify-content: space-around;
 }
+section{
+    align-items: center;
+    display: flex;
+    flex-direction: column;  /*Direção do flex. Muda para ao invés de linha coluna*/  
+}
+section img{   /*Atribui estilos apenas nas imagens dentro da section*/
+    height: 250px;
+}
+section img:nth-child(3):hover{
+    width: 100%;
+}
